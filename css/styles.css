@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* LEFT SIDE */
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    font-size: 48px;
+    margin: 60px 60px 0px 60px;
+    align-items: center;
+}
+
+.logo h1{
+ font-family: "Roboto Slab", serif;
+ font-optical-sizing: auto;
+ font-weight: 900;
+ font-style: normal;
+ color: blueviolet;
+ background: -webkit-linear-gradient(#aa32ff, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mockup-img {
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+
+
+/* RIGHT SIDE */
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 100px;
+    width: 60%;
+}
+
+.content-right h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background: -webkit-linear-gradient(#aa32ff, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-right p{
+    margin-bottom: 30px;
+    color: #320056;
+    font-weight: 600;
+}
+
+.content-right button {
+    height: 65px ;
+    width: 165px;
+    background-color: #aa32ff;
+    color: white;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.content-right button:hover {
+    background-color: #dc98fe; 
+    color: white;
+}
+
+.socials{
+    display: flex;
+    justify-content: end;
+    gap: 2em;
+    width: 100%;
+    margin: -40px;
+}
